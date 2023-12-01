@@ -1,0 +1,85 @@
+{
+    "resource": "/product",
+    "path": "/product",
+    "httpMethod": "POST",
+    "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Content-Type": "application/json",
+        "Host": "ijc3j4klp9.execute-api.us-east-1.amazonaws.com",
+        "Postman-Token": "bc4711c6-f051-4c3f-b5cb-718bff1130a6",
+        "User-Agent": "PostmanRuntime/7.35.0",
+        "X-Amzn-Trace-Id": "Root=1-6568e70a-0094ef59110678396cdea955",
+        "X-Forwarded-For": "223.233.86.156",
+        "X-Forwarded-Port": "443",
+        "X-Forwarded-Proto": "https"
+    },
+    "multiValueHeaders": {
+        "Accept": [
+            "*/*"
+        ],
+        "Accept-Encoding": [
+            "gzip, deflate, br"
+        ],
+        "Content-Type": [
+            "application/json"
+        ],
+        "Host": [
+            "ijc3j4klp9.execute-api.us-east-1.amazonaws.com"
+        ],
+        "Postman-Token": [
+            "bc4711c6-f051-4c3f-b5cb-718bff1130a6"
+        ],
+        "User-Agent": [
+            "PostmanRuntime/7.35.0"
+        ],
+        "X-Amzn-Trace-Id": [
+            "Root=1-6568e70a-0094ef59110678396cdea955"
+        ],
+        "X-Forwarded-For": [
+            "223.233.86.156"
+        ],
+        "X-Forwarded-Port": [
+            "443"
+        ],
+        "X-Forwarded-Proto": [
+            "https"
+        ]
+    },
+    "queryStringParameters": null,
+    "multiValueQueryStringParameters": null,
+    "pathParameters": null,
+    "stageVariables": null,
+    "requestContext": {
+        "resourceId": "dmmts4",
+        "resourcePath": "/product",
+        "httpMethod": "POST",
+        "extendedRequestId": "POkJrFtIIAMEuhg=",
+        "requestTime": "30/Nov/2023:19:48:26 +0000",
+        "path": "/prod/product",
+        "accountId": "453506761860",
+        "protocol": "HTTP/1.1",
+        "stage": "prod",
+        "domainPrefix": "ijc3j4klp9",
+        "requestTimeEpoch": 1701373706479,
+        "requestId": "bd5c5ac8-a412-40ec-989f-6a82a2bf876e",
+        "identity": {
+            "cognitoIdentityPoolId": null,
+            "accountId": null,
+            "cognitoIdentityId": null,
+            "caller": null,
+            "sourceIp": "223.233.86.156",
+            "principalOrgId": null,
+            "accessKey": null,
+            "cognitoAuthenticationType": null,
+            "cognitoAuthenticationProvider": null,
+            "userArn": null,
+            "userAgent": "PostmanRuntime/7.35.0",
+            "user": null
+        },
+        "domainName": "ijc3j4klp9.execute-api.us-east-1.amazonaws.com",
+        "apiId": "ijc3j4klp9"
+    },
+    "body": "{\n    \"id\": \"2\",\n    \"title\": \"Samsung Phone\",\n    \"description\": \"This is a iPhone\",\n    \"price\": 12000\n}",
+    "isBase64Encoded": false
+}
